@@ -1,9 +1,9 @@
 #!/bin/bash
 
-apt -y update
-apt -y upgrade
+sudo apt -y update
+sudo apt -y upgrade
 
-apt install -y git gh
+sudo apt install -y git gh
 
 gh auth login
 
